@@ -13,8 +13,8 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ##### Bloco 2: Git, GitHub e Internet
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
-- [ ] 2.2 - Git & GitHub - Entendendo os comandos
-- [ ] 2.3 - Internet - Entendendo como ela funciona
+- [x] 2.2 - Git & GitHub - Entendendo os comandos
+- [x] 2.3 - Internet - Entendendo como ela funciona
 
 ##### Bloco 3: [ntrodução à HTML e CSS
 - [ ] 3.1 - HTML & CSS - Estruturas de página
