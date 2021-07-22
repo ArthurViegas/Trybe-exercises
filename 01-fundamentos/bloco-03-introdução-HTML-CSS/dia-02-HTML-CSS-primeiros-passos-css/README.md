@@ -1,7 +1,7 @@
 # Para fixar
-## index.html
+** index.html **
 ...
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
       <li>Marrom</li>
     </ul>
   </body>
-</html>
+</html> -->
 ...
 
 1 - Modifique o família do h1 para sans-serif
