@@ -16,9 +16,9 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [ntrodução à HTML e CSS
-- [ ] 3.1 - HTML & CSS - Estruturas de página
-- [ ] 3.2 - HTML & CSS - Primeiros passos em CSS
+##### Bloco 3: Introdução à HTML e CSS
+- [x] 3.1 - HTML & CSS - Estruturas de página
+- [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [ ] 3.3 - HTML & CSS - Seletores e posicionamento
 - [ ] 3.4 - HTML Semântico
 - [ ] 3.5 - Projeto - Lessons Learned
