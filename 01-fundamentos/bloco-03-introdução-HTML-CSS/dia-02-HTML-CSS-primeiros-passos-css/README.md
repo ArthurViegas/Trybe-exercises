@@ -1,6 +1,6 @@
 ## Para fixar
 **index.html**
-...
+```
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -18,7 +18,7 @@
     </ul>
   </body>
 </html>
-...
+```
 
 1 - Modifique o família do h1 para sans-serif <br>
 2 - Deixe o parágrafo com o font-weight 600<br>
@@ -27,5 +27,5 @@
 5 - Explore as propriedades font-style, line-height, text-align e text-decoration<br>
 6 - Troque a cor de fundo de cada item da lista para a cor correspondente ao texto<br>
 
-Link de referência para propriedades de texto em CSS
+Link de referência para propriedades de texto em CSS<br>
 Não se esqueça de dar um PUSH no seu repositório para sincronizá-lo com o GitHub!
