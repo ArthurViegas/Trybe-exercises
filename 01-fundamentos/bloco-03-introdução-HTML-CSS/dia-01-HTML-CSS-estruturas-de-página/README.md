@@ -13,6 +13,7 @@ Você deve seguir as instruções a seguir e fazer o setup para o exercício de 
 
 ## Requisitos
 Seu Portfólio Web deve ter as seguintes informações: <br>
+
     1. Seu nome completo;
 
     2. Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
