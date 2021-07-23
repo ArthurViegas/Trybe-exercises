@@ -12,8 +12,7 @@ Você deve seguir as instruções a seguir e fazer o setup para o exercício de 
     4. Para executar o seu código enquanto o desenvolve, utilize a extensão Live Server . Para saber mais sobre ela acesse nosso conteúdo sobre isso.
 
 ## Requisitos
-Seu Portfólio Web deve ter as seguintes informações:<br
->
+Seu Portfólio Web deve ter as seguintes informações: <br>
     1. Seu nome completo;
 
     2. Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando;
@@ -27,5 +26,5 @@ Seu Portfólio Web deve ter as seguintes informações:<br
     6. Um link externo para algum blog de que você goste, que abra em uma nova aba;
 
     7. Partes do seu portfólio destacadas com negrito e/ou itálico;
-    
+
     8. Um índice com links internos para as diferentes seções do seu portfólio.
