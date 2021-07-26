@@ -19,7 +19,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 ##### Bloco 3: Introdução à HTML e CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
-- [ ] 3.3 - HTML & CSS - Seletores e posicionamento
+- [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [ ] 3.4 - HTML Semântico
 - [ ] 3.5 - Projeto - Lessons Learned
 
