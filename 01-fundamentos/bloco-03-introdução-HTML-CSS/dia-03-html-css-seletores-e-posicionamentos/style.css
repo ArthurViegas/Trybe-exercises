@@ -6,6 +6,8 @@ body {
   .tytle {
     font-family: 'Impact', sans-serif;
     font-size: 50px;
+    margin: auto;
+    text-align: center;
   }
   .dados_pessoais {
     background-color: #e3e5e6;
@@ -20,4 +22,25 @@ body {
     background-color: #e3e5e6;
     font-style: italic;
     font-size: 15px;
+  }
+  .image-container {
+      height: 250px;
+  }
+  .image-container p{
+      margin-left: 270px;
+      margin-right: 50px;
+  }
+  .hyper-links {
+      padding: 20px 10px;
+  }
+  #fotoDePerfil {
+      float: left;
+      height: 230px;
+      border-radius: 10px;
+      background-color: black;
+      padding: 5px;
+  }
+
+  div {
+      border: 2px solid red;
   }
