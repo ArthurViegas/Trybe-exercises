@@ -40,13 +40,10 @@
 
 // exercicio 5 NAO RESOLVIDO
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorNumero=0;
-for(let i=0;i>numbers.length;i+=1){
-    for(let x=0;x<i;x+=1){
-        maiorNumero += x>i;
-    }
-}
-
+let maior = numbers.reduce(function(a,b){
+    return Math.max(a,b);
+});
+console.log(maior);
 
 
 // exercicio 6
