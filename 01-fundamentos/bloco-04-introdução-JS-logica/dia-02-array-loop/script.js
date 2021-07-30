@@ -38,12 +38,12 @@
 // }
 
 
-// exercicio 5 NAO RESOLVIDO
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maior = numbers.reduce(function(a,b){
-    return Math.max(a,b);
-});
-console.log(maior);
+// exercicio 5 
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let maior = numbers.reduce(function(a,b){
+//     return Math.max(a,b);
+// });
+// console.log(maior);
 
 
 // exercicio 6
@@ -58,3 +58,14 @@ console.log(maior);
 // }
 // console.log(oddNumbers)
 
+
+// exercicio 7
+ 
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, 1];
+// let menor = numbers.reduce(function(a,b){
+//     return Math.min(a,b);
+// });
+// console.log(menor);
+
+
+// exercicio 8
