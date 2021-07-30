@@ -79,3 +79,54 @@
 // for (let i=1; i<26; i+=1){
 //     console.log(i/2);
 // }
+
+// BONUS
+
+// exercicio 1
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let ordenedNumbers = 0;
+// for(let i=1;i<numbers.length;i+=1){
+//     for(let x=0;x<i;x+=1){
+//         if(numbers[i]<numbers[x]){
+//             let position = numbers[i];
+//             numbers[i] = numbers[x];
+//             numbers[x] = position;
+            
+//         }
+//     }
+ 
+// }
+// console.log(numbers)
+
+// exercicio 2
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// for(let i=1;i<numbers.length;i+=1){
+//     for(let x=0;x<i;x+=1){
+//         if(numbers[i]>numbers[x]){
+//             let position = numbers[i];
+//             numbers[i] = numbers[x];
+//             numbers[x] = position;
+//         }
+//     }
+// }
+// console.log(numbers);
+
+// exercicio 3
+// 1 for partindo de 1 pra percorrer array
+// 2 segundo for partindo de 0 
+// 3 console.log numbers[x] * numbers[i];
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbersMultNumbers = [];
+
+for(let i=1;i<numbers.length;i+=1){
+    for(let x=0;x<i;x+=1){
+    let operation = (numbers[x]*numbers[i]);
+    numbersMultNumbers.push(operation);
+    
+    }
+}
+console.log(numbersMultNumbers)
+
