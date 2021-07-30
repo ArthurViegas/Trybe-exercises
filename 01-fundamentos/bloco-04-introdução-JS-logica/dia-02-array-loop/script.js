@@ -32,9 +32,9 @@
 // }
 // let mediaAritmetica= soma/numbers.length;
 // if (mediaAritmetica>20){
-//     console.log('valor maior que 20')
+//     console.log('valor maior que 20');
 // }else{
-//     console.log('valor menor que 20')
+//     console.log('valor menor que 20');
 // }
 
 
@@ -56,7 +56,7 @@
         
 //     }
 // }
-// console.log(oddNumbers)
+// console.log(oddNumbers);
 
 
 // exercicio 7
@@ -70,6 +70,12 @@
 
 // exercicio 8
 
-for (let i=1; i<26; i+=1){
-    console.log(i)
-}
+// for (let i=1; i<26; i+=1){
+//     console.log(i);
+// }
+
+// exercicio 9
+
+// for (let i=1; i<26; i+=1){
+//     console.log(i/2);
+// }
