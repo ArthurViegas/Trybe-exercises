@@ -36,23 +36,37 @@
 
 // exercicio 3
 
-let arrayTeste = [12, 4, 6, 7, 10, 1, 23, -2];
+// let arrayTeste = [12, 4, 6, 7, 10, 1, 23, -2];
 
-function indiceMenorValor(array){
-    // let valoresAnalisados=[];
-    let indice=0;
-    for (let i = 0; i < array.length; i+=1) {
-          if(array[i] < array.length){
-            menorValor = array[i];
-            indice = i;
-            // valoresAnalisados.push(array[i])  
+// function indiceMenorValor(array){
+//     // let valoresAnalisados=[];
+//     let indice=0;
+//     for (let i = 0; i < array.length; i+=1) {
+//           if(array[i] < array.length){
+//             menorValor = array[i];
+//             indice = i;
+//             // valoresAnalisados.push(array[i])  
         
+//         }
+        
+//     }
+// //    console.log(valoresAnalisados);
+//    console.log(indice);
+
+// }
+
+// indiceMenorValor(arrayTeste)
+
+// exercicio 4
+
+let arrayTeste = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; 
+function nomeComMaisCaracteres(array){
+    let maior = '';
+    for(let key in array){
+        if(array[key].length > maior.length)
+        maior = array[key]
         }
-        
-    }
-//    console.log(valoresAnalisados);
-   console.log(indice);
-
+    return maior;
 }
+console.log(nomeComMaisCaracteres(arrayTeste));
 
-indiceMenorValor(arrayTeste)
