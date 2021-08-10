@@ -29,11 +29,11 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 4.2 - JavaScript - Array e loop For
 - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [x] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [x] 4.5 - Projeto - Playground Functions
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
-- [ ] 5.1 - JavaScript - DOM e seletores
-- [ ] 5.2 - JavaScript - Trabalhando com elementos
+- [x] 5.1 - JavaScript - DOM e seletores
+- [x] 5.2 - JavaScript - Trabalhando com elementos
 - [ ] 5.3 - JavaScript - Eventos
 - [ ] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Fundamentos - JavaScript - Projetos
