@@ -59,14 +59,59 @@
 
 // exercicio 4
 
-let arrayTeste = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; 
-function nomeComMaisCaracteres(array){
-    let maior = '';
-    for(let key in array){
-        if(array[key].length > maior.length)
-        maior = array[key]
-        }
-    return maior;
-}
-console.log(nomeComMaisCaracteres(arrayTeste));
+// let arrayTeste = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']; 
+// function nomeComMaisCaracteres(array){
+//     let maior = '';
+//     for(let key in array){
+//         if(array[key].length > maior.length)
+//         maior = array[key]
+//         }
+//     return maior;
+// }
+// console.log(nomeComMaisCaracteres(arrayTeste));
 
+
+// exercicio 5
+// varrer a array --- loop for
+// separar numeros que se repetem --- if [i] === array.length  
+// retornar seu valor
+
+// let arrayTeste = [2, 3, 2, 5, 8, 2, 3];
+//  function numeroQueRepete(array){
+//     let numeroRepetido = 0; 
+//     for(let i in array.length){
+//          if( array[i] === array.length ){
+             
+//              numeroRepetido = array[i]
+//          }
+//      }
+//      return numeroRepetido;
+//  }
+
+//  console.log(numeroQueRepete(arrayTeste));
+
+// let arrayTeste = [2, 3, 2, 5, 8, 2, 3, 3, 3, 3];
+//  function numeroQueRepete(array){
+//    // let numeroRepetido = 0; 
+//     for(let i=0 ; i < array.length; i++){
+//         let contador = array[0];
+//         for (let j = 0; j < i ; j++) {
+//             if (array[j] === array[i]){
+//             contador.push(array[j])
+//             }
+            
+//         }return contador;
+//     }
+     
+//  }
+
+//  console.log(numeroQueRepete(arrayTeste));
+
+var repeated = [];
+let vetor = [2, 3, 2, 5, 8, 2, 3];
+var aux = vetor.filter(function(elemento, i) {
+    if(vetor.indexOf(elemento) !== i) {
+        repeated.push(elemento)
+    }
+    return vetor.indexOf(elemento) == i;
+})
