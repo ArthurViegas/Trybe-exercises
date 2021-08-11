@@ -13,4 +13,9 @@ let tagMain = document.getElementsByClassName('main-content');
 let sectionTag = document.createElement('section')
     sectionTag.className = 'center-content'
     
-mainTag.appendChild(sectionTag)
+    mainTag.appendChild(sectionTag)
+
+let paragraph1 = document.createElement('p')
+    paragraph1.innerText = "Primeiro parágrafo"
+
+    sectionTag.appendChild(paragraph1)
