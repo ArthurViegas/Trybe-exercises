@@ -22,3 +22,8 @@ let sectionLeft = document.createElement('section')
     sectionLeft.className = 'left-content'
 
     mainTag.appendChild(sectionLeft)
+
+let sectionRight = document.createElement('section')
+    sectionRight.className = 'right-content'
+
+    mainTag.appendChild(sectionRight)
