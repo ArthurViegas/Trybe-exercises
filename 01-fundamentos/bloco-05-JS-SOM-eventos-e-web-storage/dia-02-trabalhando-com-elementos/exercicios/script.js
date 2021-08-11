@@ -8,8 +8,6 @@ let mainTag = document.createElement('main')
 
     document.body.appendChild(mainTag)
 
-let tagMain = document.getElementsByClassName('main-content');
-
 let sectionTag = document.createElement('section')
     sectionTag.className = 'center-content'
     
@@ -19,3 +17,8 @@ let paragraph1 = document.createElement('p')
     paragraph1.innerText = "Primeiro parágrafo"
 
     sectionTag.appendChild(paragraph1)
+
+let sectionLeft = document.createElement('section')
+    sectionLeft.className = 'left-content'
+
+    mainTag.appendChild(sectionLeft)
