@@ -15,7 +15,7 @@ function createDaysOfTheWeek() {
   
   // Escreva seu código abaixo.
 
-  function CreateMonthDays(){
+  function createMonthDays(){
     const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;
     
 
@@ -35,8 +35,18 @@ function createDaysOfTheWeek() {
             if (day === 4 || day === 11 || day === 18 || day === 25){
                 dayItem.classList.add('friday')
             }
-
-            console.log(day, dayItem);
     }
 }
-CreateMonthDays()
+
+createMonthDays()
+
+function buttonFeriado(Feriado){
+    let local = document.querySelector('.buttons-container');
+    let botao = document.createElement('button')
+        botao.id = 'btn-holiday'
+        botao.innerText = 'Feriado'
+
+        local.appendChild(botao)
+}
+
+buttonFeriado()
