@@ -1,3 +1,4 @@
+
 function createDaysOfTheWeek() {
     const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
     const weekDaysList = document.querySelector('.week-days');
@@ -10,7 +11,6 @@ function createDaysOfTheWeek() {
       weekDaysList.appendChild(dayListItem);
     };
   };
-  
   createDaysOfTheWeek();
   
   // Escreva seu código abaixo.
@@ -30,23 +30,64 @@ function createDaysOfTheWeek() {
             weekDays.appendChild(dayItem);
 
             if (day === 24 || day === 25 || day === 31){
-                dayItem.classList.add('holiday')
+                dayItem.classList.add('holiday');
             }
             if (day === 4 || day === 11 || day === 18 || day === 25){
-                dayItem.classList.add('friday')
+                dayItem.classList.add('friday');
             }
     }
 }
+createMonthDays();
 
-createMonthDays()
-
-function buttonFeriado(Feriado){
+function buttonFeriado(){
     let local = document.querySelector('.buttons-container');
-    let botao = document.createElement('button')
-        botao.id = 'btn-holiday'
-        botao.innerText = 'Feriado'
+    let botao = document.createElement('button');
+        botao.id = 'btn-holiday';
+        botao.innerText = 'Feriados';
 
-        local.appendChild(botao)
+        local.appendChild(botao);
 }
+buttonFeriado();
 
-buttonFeriado()
+function buttonSexta(){
+    let local = document.querySelector('.buttons-container');
+    let botao = document.createElement('button');
+        botao.id = 'btn-friday';
+        botao.innerText = 'Sexta';
+
+        local.appendChild(botao);
+}
+buttonSexta();
+
+function highlightHolidays(){
+  
+   let holidays = document.querySelectorAll('.holiday');
+
+        for (let i = 0; i < holidays.length; i += 1) {
+            if(holidays[i].style.backgroundColor === 'white'){
+                holidays[i].style.backgroundColor = 'rgb(238,238,238)';
+            }else{
+                holidays[i].style.backgroundColor = 'white';
+            }
+            
+        }
+}
+function highlightFridays(){
+
+     let friday = document.querySelectorAll('.friday');
+  
+          for (let i = 0; i < friday.length; i += 1) {
+              if(friday[i].style.backgroundColor === 'white'){
+                  friday[i].style.backgroundColor = 'rgb(238,238,238)';
+              }else{
+                  friday[i].style.backgroundColor = 'white';
+              }
+              
+          }
+  }
+
+let botaoFeriado = document.querySelector('#btn-holiday');
+let botaoSexta = document.querySelector('#btn-friday');
+
+botaoFeriado.addEventListener('click', highlightHolidays);
+botaoSexta.addEventListener('click', highlightFridays )
