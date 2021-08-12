@@ -27,3 +27,19 @@ let sectionRight = document.createElement('section')
     sectionRight.className = 'right-content'
 
     mainTag.appendChild(sectionRight)
+
+let leftImage = document.createElement('img')
+    leftImage.src = 'https://picsum.photos/200'
+    leftImage.className = 'small-image'
+    
+    sectionLeft.appendChild(leftImage)
+
+let rigthList = document.createElement('ul')
+    for (let index = 1; index <= 10; index += 1){
+        rigthList.createElement('li')
+        
+        
+    }
+
+
+    mainTag.appendChild(rigthList)

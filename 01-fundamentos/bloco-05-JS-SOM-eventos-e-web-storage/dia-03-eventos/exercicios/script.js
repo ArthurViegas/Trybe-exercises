@@ -85,9 +85,18 @@ function changeFridays(){
             }
           }
   }
+function daysZoom(dia){
+  
+   // let days = document.querySelectorAll('.day');
+       // days.style.fontSize = '30px'
+        dia.target.style.fontSize = '30px';
+        console.log(target);
+}
 
 let botaoFeriado = document.querySelector('#btn-holiday');
 let botaoSexta = document.querySelector('#btn-friday');
+let mouseEmCima = document.querySelectorAll('.day');
 
+mouseEmCima.addEventListener('mouseover', daysZoom)
 botaoFeriado.addEventListener('click', highlightHolidays);
 botaoSexta.addEventListener('click', changeFridays )
