@@ -5,15 +5,19 @@ const secondLi = document.getElementById('secondLi');
 const thirdLi = document.getElementById('thirdLi');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
+const botton = document.getElementById('button');
 
 firstLi.addEventListener('click', adicionaClassTech);
 secondLi.addEventListener('click', adicionaClassTech);
 thirdLi.addEventListener('click', adicionaClassTech);
 
-input.addEventListener('keyup', changeBoxText)
+//input.addEventListener('keyup', changeBoxText)
+
 myWebpage.addEventListener('dblclick', redirectToPortfolio)
 myWebpage.addEventListener('mouseover', colorChangeGreen)
 myWebpage.addEventListener('mouseleave', colorChangeWhite)
+
+button.addEventListener('click', submitButton)
 
 function adicionaClassTech(parametro){
     let li = parametro.target;
@@ -34,12 +38,15 @@ function adicionaClassTech(parametro){
     }
     
 }
-
-function changeBoxText(){
-     let liTech = document.querySelector('.tech');
-     liTech.innerText = input.value;
-     
+function submitButton (){
+    let liTech = document.querySelector('.tech');
+    liTech.innerText = input.value;
 }
+// function changeBoxText(){
+//      let liTech = document.querySelector('.tech');
+//      liTech.innerText = input.value;
+     
+// }
 
 function redirectToPortfolio (){
     window.location = 'https://www.linkedin.com/in/viegasarthur/'
