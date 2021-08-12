@@ -5,7 +5,7 @@ const secondLi = document.getElementById('secondLi');
 const thirdLi = document.getElementById('thirdLi');
 const input = document.getElementById('input');
 const myWebpage = document.getElementById('mySpotrybefy');
-const botton = document.getElementById('button');
+// const botton = document.getElementById('button');
 
 firstLi.addEventListener('click', adicionaClassTech);
 secondLi.addEventListener('click', adicionaClassTech);
