@@ -85,18 +85,29 @@ function changeFridays(){
             }
           }
   }
-function daysZoom(dia){
-  
-   // let days = document.querySelectorAll('.day');
-       // days.style.fontSize = '30px'
-        dia.target.style.fontSize = '30px';
-        console.log(target);
-}
+function daysZoomIn(){
+    let days = document.querySelector('#days');
+    
+    days.addEventListener('mouseover', function(event){
+        event.target.style.fontSize = '30px';
+        event.target.style.fontWeight = '600';
+    })
+    days.style.cursor = 'pointer'
+    console.log(days);
+};
+function daysZoomOut(){
+    let days = document.querySelector('#days');
+    
+    days.addEventListener('mouseout', function(event){
+        event.target.style.fontSize = '20px';
+        event.target.style.fontWeight = '200';
+    })
+} 
+daysZoomIn()
+daysZoomOut()
 
 let botaoFeriado = document.querySelector('#btn-holiday');
 let botaoSexta = document.querySelector('#btn-friday');
-let mouseEmCima = document.querySelectorAll('.day');
 
-mouseEmCima.addEventListener('mouseover', daysZoom)
 botaoFeriado.addEventListener('click', highlightHolidays);
-botaoSexta.addEventListener('click', changeFridays )
+botaoSexta.addEventListener('click', changeFridays );
