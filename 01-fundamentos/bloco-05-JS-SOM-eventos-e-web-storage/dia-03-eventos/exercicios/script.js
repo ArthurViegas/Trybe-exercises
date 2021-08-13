@@ -105,9 +105,29 @@ function daysZoomOut(){
 } 
 daysZoomIn()
 daysZoomOut()
+function myTasks(task){  
+    let tasksContainer = document.querySelector('.my-tasks')
+    console.log(tasksContainer);
+    let tasks = document.createElement('span');
+        tasks.innerText = task;    
+        tasksContainer.appendChild(tasks)
 
+        console.log(tasks);
+}
+function submitTaksButton(){
+    let task = input.value;
+    task.value = 'task';
+    myTasks(task)
+    
+    console.log('funciona');
+}
+
+
+let input = document.querySelector('#task-input');
 let botaoFeriado = document.querySelector('#btn-holiday');
 let botaoSexta = document.querySelector('#btn-friday');
+let addButton = document.querySelector('#btn-add');
 
+addButton.addEventListener('click', submitTaksButton) 
 botaoFeriado.addEventListener('click', highlightHolidays);
 botaoSexta.addEventListener('click', changeFridays );
