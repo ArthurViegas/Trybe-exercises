@@ -44,6 +44,7 @@ function buttonFeriado(){
     let botao = document.createElement('button');
         botao.id = 'btn-holiday';
         botao.innerText = 'Feriados';
+        botao.style.cursor = 'pointer'
 
         local.appendChild(botao);
 }
@@ -54,7 +55,7 @@ function buttonSexta(){
     let botao = document.createElement('button');
         botao.id = 'btn-friday';
         botao.innerText = 'Sexta';
-
+        botao.style.cursor = 'pointer'
         local.appendChild(botao);
 }
 buttonSexta();
@@ -92,8 +93,7 @@ function daysZoomIn(){
         event.target.style.fontSize = '30px';
         event.target.style.fontWeight = '600';
     })
-    days.style.cursor = 'pointer'
-    console.log(days);
+    days.style.cursor = 'default'
 };
 function daysZoomOut(){
     let days = document.querySelector('#days');
