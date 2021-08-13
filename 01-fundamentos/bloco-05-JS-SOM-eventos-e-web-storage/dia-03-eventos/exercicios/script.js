@@ -105,22 +105,25 @@ function daysZoomOut(){
 } 
 daysZoomIn()
 daysZoomOut()
+
 function myTasks(task){  
     let tasksContainer = document.querySelector('.my-tasks')
-    console.log(tasksContainer);
     let tasks = document.createElement('span');
         tasks.innerText = task;    
         tasksContainer.appendChild(tasks)
-
-        console.log(tasks);
+}
+function taskColor(cor){
+    let tasksContainer = document.querySelector('.my-tasks')
+    let task = document.createElement('div')
+        task.className = 'task'
+        task.style.backgroundColor = cor;
+        tasksContainer.appendChild(task)
 }
 function submitTaksButton(){
     let task = input.value;
-    task.value = 'task';
     myTasks(task)
-    
-    console.log('funciona');
 }
+
 
 
 let input = document.querySelector('#task-input');
