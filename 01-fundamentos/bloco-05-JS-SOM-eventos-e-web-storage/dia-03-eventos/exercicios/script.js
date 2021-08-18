@@ -112,17 +112,32 @@ function myTasks(task){
         tasks.innerText = task;    
         tasksContainer.appendChild(tasks)
 }
-function taskColor(cor){
-    let tasksContainer = document.querySelector('.my-tasks')
-    let task = document.createElement('div')
-        task.className = 'task'
-        task.style.backgroundColor = cor;
-        tasksContainer.appendChild(task)
-}
-function submitTaksButton(){
-    let task = input.value;
+function submitTaskButton(){
+    let task = input.value + '\n';
     myTasks(task)
+    addButton.addEventListener('click',function(event){
+       input.value = '';
+       //console.log('funcionou', input ,event);
+    }) 
 }
+function submitTaskColor(cor){
+    let tasksContainer = document.querySelector('.my-tasks');
+    let task = document.createElement('div');
+        task.className = 'task';
+        task.style.backgroundColor = input.value;
+        tasksContainer.appendChild(task);
+}
+function taskColorButton(){
+    let cor = input.value;
+    submitTaskColor(cor)
+
+    addColorButton.addEventListener('click',function(event){
+        input.value = '';
+        //console.log('funcionou', input ,event);
+     })
+    
+}
+
 
 
 
@@ -130,7 +145,9 @@ let input = document.querySelector('#task-input');
 let botaoFeriado = document.querySelector('#btn-holiday');
 let botaoSexta = document.querySelector('#btn-friday');
 let addButton = document.querySelector('#btn-add');
+let addColorButton = document.querySelector('#btn-add-cor')
 
-addButton.addEventListener('click', submitTaksButton) 
+addColorButton.addEventListener('click', taskColorButton)
+addButton.addEventListener('click', submitTaskButton) 
 botaoFeriado.addEventListener('click', highlightHolidays);
 botaoSexta.addEventListener('click', changeFridays );
