@@ -44,6 +44,7 @@ function buttonFeriado(){
     let botao = document.createElement('button');
         botao.id = 'btn-holiday';
         botao.innerText = 'Feriados';
+        botao.style.cursor = 'pointer'
 
         local.appendChild(botao);
 }
@@ -54,7 +55,7 @@ function buttonSexta(){
     let botao = document.createElement('button');
         botao.id = 'btn-friday';
         botao.innerText = 'Sexta';
-
+        botao.style.cursor = 'pointer'
         local.appendChild(botao);
 }
 buttonSexta();
@@ -85,18 +86,68 @@ function changeFridays(){
             }
           }
   }
-function daysZoom(dia){
-  
-   // let days = document.querySelectorAll('.day');
-       // days.style.fontSize = '30px'
-        dia.target.style.fontSize = '30px';
-        console.log(target);
+function daysZoomIn(){
+    let days = document.querySelector('#days');
+    
+    days.addEventListener('mouseover', function(event){
+        event.target.style.fontSize = '30px';
+        event.target.style.fontWeight = '600';
+    })
+    days.style.cursor = 'default'
+};
+function daysZoomOut(){
+    let days = document.querySelector('#days');
+    
+    days.addEventListener('mouseout', function(event){
+        event.target.style.fontSize = '20px';
+        event.target.style.fontWeight = '200';
+    })
+} 
+daysZoomIn()
+daysZoomOut()
+
+function myTasks(task){  
+    let tasksContainer = document.querySelector('.my-tasks')
+    let tasks = document.createElement('span');
+        tasks.innerText = task;    
+        tasksContainer.appendChild(tasks)
+}
+function submitTaskButton(){
+    let task = input.value + '\n';
+    myTasks(task)
+    addButton.addEventListener('click',function(event){
+       input.value = '';
+       //console.log('funcionou', input ,event);
+    }) 
+}
+function submitTaskColor(cor){
+    let tasksContainer = document.querySelector('.my-tasks');
+    let task = document.createElement('div');
+        task.className = 'task';
+        task.style.backgroundColor = input.value;
+        tasksContainer.appendChild(task);
+}
+function taskColorButton(){
+    let cor = input.value;
+    submitTaskColor(cor)
+
+    addColorButton.addEventListener('click',function(event){
+        input.value = '';
+        //console.log('funcionou', input ,event);
+     })
+    
 }
 
+
+
+
+let input = document.querySelector('#task-input');
 let botaoFeriado = document.querySelector('#btn-holiday');
 let botaoSexta = document.querySelector('#btn-friday');
-let mouseEmCima = document.querySelectorAll('.day');
+let addButton = document.querySelector('#btn-add');
+let addColorButton = document.querySelector('#btn-add-cor')
 
-mouseEmCima.addEventListener('mouseover', daysZoom)
+addColorButton.addEventListener('click', taskColorButton)
+addButton.addEventListener('click', submitTaskButton) 
 botaoFeriado.addEventListener('click', highlightHolidays);
-botaoSexta.addEventListener('click', changeFridays )
+botaoSexta.addEventListener('click', changeFridays );
