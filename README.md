@@ -5,7 +5,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
-##### Bloco 1: Unix, Bash e Shell Script
+##### Bloco 1: Unix, Bash e Shell Script 
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
@@ -21,7 +21,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
-- [x] 3.5 - Projeto - Lessons Learned
+- [x] 3.5 - Projeto - Lessons Learned <a href="https://github.com/tryber/sd-015-b-project-lessons-learned/pull/138" target="_blank">Diretório do projeto</a>
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 - [x] 4.1 - Introdução - JavaScript
