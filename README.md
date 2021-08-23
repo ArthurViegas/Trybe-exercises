@@ -16,12 +16,12 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução à HTML e CSS
+[#####](quora.com/profile/Ashish-Kulkarni-100) Bloco 3: Introdução à HTML e CSS 
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
-- [x] 3.5 - Projeto - Lessons Learned <a href="https://github.com/tryber/sd-015-b-project-lessons-learned/pull/138" target="_blank">Diretório do projeto</a>
+- [x] 3.5 - Projeto - Lessons Learned 
 
 ##### Bloco 4: Introdução à JavaScript e Lógica de Programação
 - [x] 4.1 - Introdução - JavaScript
