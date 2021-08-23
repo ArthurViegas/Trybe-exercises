@@ -16,14 +16,14 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução à HTML e CSS: Diretório do [projeto](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction)
+##### Bloco 3: Introdução à HTML e CSS: Diretório do [projeto](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction/B3-lessons-learned)
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned 
 
-##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação: Diretório do [projeto](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction/B4-playground-functions)
 - [x] 4.1 - Introdução - JavaScript
 - [x] 4.1 - JavaScript - Primeiros passos
 - [x] 4.2 - JavaScript - Array e loop For
@@ -31,7 +31,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 4.4 - JavaScript - Objetos e funções
 - [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage: Diretório do [Pixels](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction/B5-pixel-art) e [To do list](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction/B5-to-do-list)
 - [x] 5.1 - JavaScript - DOM e seletores
 - [x] 5.2 - JavaScript - Trabalhando com elementos
 - [x] 5.3 - JavaScript - Eventos
