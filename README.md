@@ -16,7 +16,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: Introdução à HTML e CSS Diretório do [projeto](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction)
+##### Bloco 3: Introdução à HTML e CSS: Diretório do [projeto](https://github.com/ArthurViegas/Trybe-exercises/tree/master/Trybe%20Projects/B1-Introduction)
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
 - [x] 3.3 - HTML & CSS - Seletores e posicionamento
