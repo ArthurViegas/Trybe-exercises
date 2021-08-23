@@ -1,0 +1,76 @@
+body{
+    background-color:#706a74;
+}
+#title{
+    text-align: left;
+    margin-left: 50px;
+}
+#color-palette{
+    margin: 51px 50px 20px 50px;
+    
+}
+#pixel-board{
+    margin-left: 50px;
+    border: 1px solid rgb(85, 80, 80);
+}
+#clear-board{
+margin-left: 50px;
+margin-bottom: 20px;
+padding: 5px 15px;
+}
+#sizeSection{
+  margin-bottom: 10px;
+  margin: 20px 50px 20px 50px;
+}
+#gridSize{
+  padding: 5px;
+  text-align: center;
+}
+#board-size{
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.selected{
+ background-color: black;
+}
+.paletteBox {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #000;
+  }
+  .paletteBox1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #675650;
+  }
+  .paletteBox2 {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #bea87d;   
+  }
+  .paletteBox3 {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #f0e0cf;
+  }
+
+  .pixel {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #fff;
+  }
