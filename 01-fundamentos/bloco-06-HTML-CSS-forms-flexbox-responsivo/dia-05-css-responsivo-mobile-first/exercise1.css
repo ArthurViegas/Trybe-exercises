@@ -1,7 +1,7 @@
 /* break point width = 800px */
 body {
   font-size: 20px;
-  margin: 0px 30px;
+  margin: 0px 5px;
 }
 h1 {
   font-size: 25px;
@@ -17,4 +17,18 @@ img {
 figure {
     margin: 50px;
     
+}
+@media screen and (min-width: 800px) {
+  body{
+    background-color: rgb(162, 162, 255);
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+  main figure{
+    width: 700px;
+  }
+  main div {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
