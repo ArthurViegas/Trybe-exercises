@@ -24,8 +24,8 @@ figure {
     font-size: 30px;
     margin: 0px 10px;
   }
-  main figure{
-    width: 700px;
+  main figure img {
+    height: 250px;
   }
   main div {
     display: flex;
