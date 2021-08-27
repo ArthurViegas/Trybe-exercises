@@ -11,3 +11,13 @@ const teste = escopo => {
 }
 
 teste(true);
+
+// exercise 2
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+const returnArray = () =>{
+const teste = `Os numers ${oddsAndEvens.sort()} se encontram ordenados de forma crescente!`
+return teste
+}
+// Seu código aqui.
+
+console.log(returnArray()); // será necessário alterar essa linha 😉
