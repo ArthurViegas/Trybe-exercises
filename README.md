@@ -50,11 +50,11 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 6.3 - CSS Flexbox - Parte 1
 - [x] 6.4 - CSS Flexbox - Parte 2
 - [x] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Trybewarts
+- [x] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
-- [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7.2 - JavaScript ES6 - Objects
+- [x] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7.2 - JavaScript ES6 - Objects
 - [ ] 7.3 - Testes unitários em JavaScript
 - [ ] 7.4 - Projeto - JavaScript Testes Unitários
 
