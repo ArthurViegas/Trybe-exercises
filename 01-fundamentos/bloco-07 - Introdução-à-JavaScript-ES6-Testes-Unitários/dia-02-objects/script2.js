@@ -20,36 +20,25 @@ const lesson3 = {
 
 // exercicio 1
 
-// const modifyLesson = (lesson) => {
-//   lesson.turno = 'noite';
-//   return lesson;
-// }
+// const modifyLesson = (lesson) => lesson.turno = 'noite';
 // console.log(modifyLesson(lesson2));
 
 // exercicio 2
 
-// const returnKeys = (objeto) => {
-//   const chaves = Object.keys(objeto);
-//   for (keys in chaves) {
-//     console.log(chaves[keys]);
-//   }
-// }
-// returnKeys(lesson3)
+// const returnKeys = (objeto) => Object.keys(objeto)
+// console.log(returnKeys(lesson3));
 
 // exercicio 3
 
-// const objectSize = (objeto) => {
-//   const chaves = Object.keys(objeto);
-//   console.log(chaves.length);
-// }
-// objectSize(lesson3)
+// const objectSize = (objeto) => Object.keys(objeto).length
+// console.log(objectSize(lesson3));
 
 // exercicio 4
 
-const returnValues = (objeto) => {
-  const chaves = Object.keys(objeto);
-  for (keys in chaves) {
-    console.log(objeto[chaves[keys]]);
-  }
-}
-returnValues(lesson3)
+// const returnValues = (objeto) => Object.values(objeto)
+// console.log(returnValues(lesson3));
+
+// const lessonsGroup = () => {
+//   const allLessons = Object.assign
+// }
+
