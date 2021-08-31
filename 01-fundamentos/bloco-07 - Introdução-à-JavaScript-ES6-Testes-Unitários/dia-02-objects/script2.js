@@ -20,8 +20,19 @@ const lesson3 = {
 
 // exercicio 1
 
-const modifyLesson = (lesson) => {
-  lesson.turno = 'noite';
-  return lesson;
+// const modifyLesson = (lesson) => {
+//   lesson.turno = 'noite';
+//   return lesson;
+// }
+// console.log(modifyLesson(lesson2));
+
+// exercicio 2
+
+const returnKeys = (objeto) => {
+  const chaves = Object.keys(objeto);
+  for (keys in chaves) {
+    console.log(chaves[keys]);
+  }
 }
-console.log(modifyLesson(lesson2));
+
+returnKeys(lesson3)
