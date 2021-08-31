@@ -1,0 +1,44 @@
+
+body {
+  font-size: 25px;
+  margin: 0px 5px;
+}
+h1 {
+  font-size: 25px;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 50px;
+    
+}
+/* break point width = 800px */
+@media screen and (min-width: 800px) {
+  body{
+    background-color: rgb(162, 162, 255);
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+  main figure img {
+    height: 250px;
+  }
+  main div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+/* break point width = 1300px */
+@media screen and (min-width: 1300px) {
+  body{
+    background-color: rgb(203, 203, 255);
+    font-size: 35px;
+    margin: 0px 15px;
+    max-width: 1300px;
+  }
+}
