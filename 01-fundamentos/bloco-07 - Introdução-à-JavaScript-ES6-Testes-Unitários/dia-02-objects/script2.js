@@ -38,8 +38,18 @@ const lesson3 = {
 
 // exercicio 3
 
-const objectSize = (objeto) => {
+// const objectSize = (objeto) => {
+//   const chaves = Object.keys(objeto);
+//   console.log(chaves.length);
+// }
+// objectSize(lesson3)
+
+// exercicio 4
+
+const returnValues = (objeto) => {
   const chaves = Object.keys(objeto);
-  console.log(chaves.length);
+  for (keys in chaves) {
+    console.log(objeto[chaves[keys]]);
+  }
 }
-objectSize(lesson3)
+returnValues(lesson3)
