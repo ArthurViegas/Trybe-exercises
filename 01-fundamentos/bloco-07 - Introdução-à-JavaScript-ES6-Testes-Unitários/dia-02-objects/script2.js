@@ -38,7 +38,7 @@ const lesson3 = {
 // const returnValues = (objeto) => Object.values(objeto)
 // console.log(returnValues(lesson3));
 
-// const lessonsGroup = () => {
-//   const allLessons = Object.assign
-// }
+// exercicio 5
 
+const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
+console.log(allLessons);
