@@ -50,5 +50,17 @@ const lesson3 = {
 
 // exercicio 7
 
-const returnValueByNumber = (objeto, numero) => Object.values(objeto)[numero];
-console.log(returnValueByNumber(lesson1, 0));
+// const returnValueByNumber = (objeto, numero) => Object.values(objeto)[numero];
+// console.log(returnValueByNumber(lesson1, 0));
+
+// exercicio 8
+
+const verifyPair = (objeto, key, value) => {
+const arrayObj = Object.entries(objeto);
+let isEqual = false;
+for (let i in arrayObj){
+  if ((arrayObj[i][0] === key) && (arrayObj[i][1] === value)) isEqual = true;
+}
+return isEqual;
+}
+console.log(verifyPair(lesson1, 'materia', 'Matemática'));
