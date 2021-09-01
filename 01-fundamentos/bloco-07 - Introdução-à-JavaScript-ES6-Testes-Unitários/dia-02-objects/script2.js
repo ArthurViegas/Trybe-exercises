@@ -41,4 +41,9 @@ const lesson3 = {
 // exercicio 5
 
 const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
-console.log(allLessons);
+// console.log(allLessons);
+
+// exercicio 6
+
+const returnSize = (objeto) => Object.keys(objeto).length;
+console.log(returnSize(allLessons));
