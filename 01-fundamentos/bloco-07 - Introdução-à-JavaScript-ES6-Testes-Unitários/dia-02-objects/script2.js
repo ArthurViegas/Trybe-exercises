@@ -40,10 +40,15 @@ const lesson3 = {
 
 // exercicio 5
 
-const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
+// const allLessons = Object.assign({}, {lesson1, lesson2, lesson3})
 // console.log(allLessons);
 
 // exercicio 6
 
-const returnSize = (objeto) => Object.keys(objeto).length;
-console.log(returnSize(allLessons));
+// const returnSize = (objeto) => Object.keys(objeto).length;
+// console.log(returnSize(allLessons));
+
+// exercicio 7
+
+const returnValueByNumber = (objeto, numero) => Object.values(objeto)[numero];
+console.log(returnValueByNumber(lesson1, 0));
