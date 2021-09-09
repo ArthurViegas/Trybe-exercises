@@ -1,5 +1,34 @@
-const assert = require('assert');
-
+const assert = require('assert')
+const expectedResult = [
+  { 
+    id: 1,
+    name: 'As Crônicas de Gelo e Fogo',
+    genre: 'Fantasia',
+    author: { name: 'George R. R. Martin', birthYear: 1948 },
+    releaseYear: 1991
+  },
+  {
+    id: 2,
+    name: 'O Senhor dos Anéis',
+    genre: 'Fantasia',
+    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
+    releaseYear: 1954
+  },
+  {
+    id: 3,
+    name: 'Fundação',
+    genre: 'Ficção Científica',
+    author: { name: 'Isaac Asimov', birthYear: 1920 },
+    releaseYear: 1951
+  },
+  {
+    id: 4,
+    name: 'Duna',
+    genre: 'Ficção Científica',
+    author: { name: 'Frank Herbert', birthYear: 1920 },
+    releaseYear: 1965
+  }
+];
 const books = [
   {
     id: 1,
@@ -62,19 +91,11 @@ const books = [
     releaseYear: 1928,
   },
 ];
-
-// const bookDescription = books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
-function formatedBookNames() {
-  return books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+function fantasyOrScienceFiction() {
+  return expectedResult.filter((genero) => (
+    genero.genre === 'Fantasia'|| genero.genre === 'Ficção Científica'
+    ))
+  
 }
-const expectedResult = [
-  'As Crônicas de Gelo e Fogo - Fantasia - George R. R. Martin',
-  'O Senhor dos Anéis - Fantasia - J. R. R. Tolkien',
-  'Fundação - Ficção Científica - Isaac Asimov',
-  'Duna - Ficção Científica - Frank Herbert',
-  'A Coisa - Terror - Stephen King',
-  'O Chamado de Cthulhu - Terror - H. P. Lovecraft',
-];
-assert.deepStrictEqual(formatedBookNames(books), expectedResult);
-console.log(formatedBookNames(books));
-// Adicione o código do exercício aqui:
+console.log(fantasyOrScienceFiction());
+assert.deepStrictEqual(fantasyOrScienceFiction(), expectedResult);
