@@ -1,4 +1,5 @@
 const assert = require('assert');
+const { resourceUsage } = require('process');
 
 const books = [
   {
@@ -62,16 +63,14 @@ const books = [
     releaseYear: 1928,
   },
 ];
+const expectedResult = 43;
 
-
-const expectedResult = "George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.";
-
-function reduceNames() {
-const names = books.reduce((acc, obj, index, array) => {
-   if (index === array.length - 1) return `${acc} ${obj.author.name}.`;
-   return `${acc} ${obj.author.name},`
-}, '')
-return names.trim();
+function averageAge() {
+  const book = books.length;
+  const age = books.reduce((acc, obj) => (
+    acc + (obj.releaseYear - obj.author.birthYear)
+  ), 0)
+  return age/book;
 }
-
-assert.strictEqual(reduceNames(), expectedResult);
+console.log(averageAge());
+assert.strictEqual(averageAge(), expectedResult);
