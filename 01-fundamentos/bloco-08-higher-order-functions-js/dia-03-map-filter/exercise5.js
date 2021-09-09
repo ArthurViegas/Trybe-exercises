@@ -1,5 +1,4 @@
 const assert = require('assert');
-
 const books = [
   {
     id: 1,
@@ -63,32 +62,19 @@ const books = [
   },
 ];
 const expectedResult = [
-  {
-    id: 6,
-    name: 'O Chamado de Cthulhu',
-    genre: 'Terror',
-    author: { name: 'H. P. Lovecraft', birthYear: 1890 },
-    releaseYear: 1928,
-  },
-  {
-    id: 3,
-    name: 'Fundação',
-    genre: 'Ficção Científica',
-    author: { name: 'Isaac Asimov', birthYear: 1920 },
-    releaseYear: 1951,
-  },
-  {
-    id: 2,
-    name: 'O Senhor dos Anéis',
-    genre: 'Fantasia',
-    author: { name: 'J. R. R. Tolkien', birthYear: 1892 },
-    releaseYear: 1954,
-  },
+  'Frank Herbert',
+  'George R. R. Martin',
+  'Isaac Asimov',
+  'J. R. R. Tolkien',
 ];
 
-function oldBooksOrdered() {
- return books.filter((book) => (
-  2020 - book.releaseYear >= 60
- )).sort((book1, book2) => book1.releaseYear - book2.releaseYear)}
-console.log(oldBooksOrdered());
-assert.deepStrictEqual(oldBooksOrdered(), expectedResult);
+function fantasyOrScienceFictionAuthors() {
+  const genero = books.filter((autores) => (
+    autores.genre === 'Fantasia' || autores.genre === 'Ficção Científica'
+  ))
+  return genero.map((autores) => (
+    autores.author.name
+  )).sort()
+}
+console.log(fantasyOrScienceFictionAuthors());
+assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult);
