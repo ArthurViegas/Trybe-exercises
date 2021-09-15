@@ -67,7 +67,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [ ] 8.6 - Projeto - Zoo functions
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
-- [ ] 9.1 - JavaScript Assíncrono e Callbacks
+- [x] 9.1 - JavaScript Assíncrono e Callbacks
 - [ ] 9.2 - JavaScript Promises
 - [ ] 9.3 - Projeto - Carrinho de Compras
 
