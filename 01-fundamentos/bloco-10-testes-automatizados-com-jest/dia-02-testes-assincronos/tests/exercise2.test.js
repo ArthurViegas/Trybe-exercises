@@ -14,5 +14,3 @@ describe('Efetua os testes por promisses', () => {
       })
     });
   });
-
-  
