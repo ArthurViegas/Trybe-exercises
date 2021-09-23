@@ -1,5 +1,3 @@
-const genRandNum = () => {
-  return Math.floor(Math.random() * 100 + 1)
-}
+const genRandNum = () => Math.floor(Math.random() * 100 + 1);
 
 module.exports = genRandNum;
