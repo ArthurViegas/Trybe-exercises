@@ -80,11 +80,11 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: Introdução à React
-- [x] 10.1 - Introdução - Front-end
-- [x] 10.1 - Introdução - React
-- [x] 10.1 - 'Hello, world!' no React!
-- [ ] 10.2 - Componentes React
-- [ ] 10.3 - Projeto - Movie Cards Library
+- [x] 10.5 - Introdução - Front-end
+- [x] 10.5 - Introdução - React
+- [x] 10.5 - 'Hello, world!' no React!
+- [ ] 10.6 - Componentes React
+- [ ] 10.7 - Projeto - Movie Cards Library
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 - [ ] 11.1 - Componentes com estado e eventos
