@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #333;
+  color: white;
+}
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.PokeSection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+.PokeCard {
+  color: #333;
+  display: flex;
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 8px 6px rgba(248,255,130,0.23);
+}
+.PokeCard:hover {
+  cursor: pointer;
+  background-color: rgb(235, 235, 235);
+}
