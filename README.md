@@ -73,16 +73,16 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ##### Bloco 10: Testes automatizados com Jest
 - [x] 10.1 - Primeiros passos no Jest
-- [ ] 10.2 - Jest - Testes Assíncronos
-- [ ] 10.3 - Jest - Simulando comportamentos
-- [ ] 10.4 - Projeto - Jest Assíncrono e Mocking
+- [x] 10.2 - Jest - Testes Assíncronos
+- [x] 10.3 - Jest - Simulando comportamentos
+- [x] 10.4 - Projeto - Jest Assíncrono e Mocking
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 11: Introdução à React
-- [ ] 11.1 - Introdução - Front-end
-- [ ] 11.1 - Introdução - React
-- [ ] 11.1 - 'Hello, world!' no React!
+- [x] 11.1 - Introdução - Front-end
+- [x] 11.1 - Introdução - React
+- [x] 11.1 - 'Hello, world!' no React!
 - [ ] 11.2 - Componentes React
 - [ ] 11.3 - Projeto - Movie Cards Library
 
