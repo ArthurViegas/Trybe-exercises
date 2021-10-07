@@ -16,7 +16,3 @@ class PokeList extends Component {
 }
 
 export default PokeList
-// nome do pokemon;
-// tipo do pokemon;
-// peso médio do pokemon, acompanhado da unidade de medida usada;
-// imagem do pokemon.
