@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(27, 27, 27);
+}
+.App {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  /* background-color: aliceblue; */
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  background-color: rgb(128, 128, 226);
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+  color: white;
+}
+.form-div h1 {
+  margin-bottom: 50PX;
+}
+.form-div input {
+  margin-left: 15px;
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
