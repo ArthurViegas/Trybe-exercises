@@ -89,25 +89,25 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 - [x] 11.1 - Componentes com estado e eventos
 - [x] 11.2 - Formulários no React
-- [ ] 11.3 - Projeto - Movie Cards Library Stateful
+- [x] 11.3 - Projeto - Movie Cards Library Stateful
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
-- [ ] 12.1 - Ciclo de vida de componentes
-- [ ] 12.2 - React Router
-- [ ] 12.3 - Projeto - Movie Cards Library CRUD
+- [x] 12.1 - Ciclo de vida de componentes
+- [x] 12.2 - React Router
+- [x] 12.3 - Projeto - Movie Cards Library CRUD
 
 ##### Bloco 13: Metodologias Ágeis
-- [ ] 13.1 - Metodologias Ágeis
-- [ ] 13.2 - Projeto - Frontend Online Store
+- [x] 13.1 - Metodologias Ágeis
+- [x] 13.2 - Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
-- [ ] 14.1 - RTL - Primeiros passos
-- [ ] 14.2 - RTL - Mocks e Inputs
-- [ ] 14.3 - RTL - Testando React Router
-- [ ] 14.4 - Projeto - Testes em React
+- [x] 14.1 - RTL - Primeiros passos
+- [x] 14.2 - RTL - Mocks e Inputs
+- [x] 14.3 - RTL - Testando React Router
+- [x 14.4 - Projeto - Testes em React
 
 ##### Bloco 15: Gerenciamento de estado com Redux
-- [ ] 15.1 - Introdução ao Redux - O estado global da aplicação
+- [x] 15.1 - Introdução ao Redux - O estado global da aplicação
 - [ ] 15.2 - Usando o Redux no React
 - [ ] 15.3 - Usando o Redux no React - Prática
 - [ ] 15.4 - Usando o Redux no React - Actions Assíncronas
