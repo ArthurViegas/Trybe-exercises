@@ -108,17 +108,17 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 - [x] 15.1 - Introdução ao Redux - O estado global da aplicação
-- [ ] 15.2 - Usando o Redux no React
-- [ ] 15.3 - Usando o Redux no React - Prática
-- [ ] 15.4 - Usando o Redux no React - Actions Assíncronas
-- [ ] 15.5 - Testes síncronos com React-Redux
-- [ ] 15.6 - Projeto - Tabela com filtros de dados
+- [x] 15.2 - Usando o Redux no React
+- [x] 15.3 - Usando o Redux no React - Prática
+- [x] 15.4 - Usando o Redux no React - Actions Assíncronas
+- [x] 15.5 - Testes síncronos com React-Redux
+- [x] 15.6 - Projeto - Tabela com filtros de dados
 
 ##### Bloco 16: Projeto Jogo de Trivia
-- [ ] 16.1 - Projeto - Jogo de Trivia
+- [x] 16.1 - Projeto - Jogo de Trivia
 
 ##### Bloco 17: Context API e React Hooks
-- [ ] 17.1 - Context API do React
+- [x] 17.1 - Context API do React
 - [ ] 17.2 - React Hooks - useState e useContext
 - [ ] 17.3 - React Hooks - useEffect e Hooks customizados
 - [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
