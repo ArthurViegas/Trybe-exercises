@@ -119,9 +119,9 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ##### Bloco 17: Context API e React Hooks
 - [x] 17.1 - Context API do React
-- [ ] 17.2 - React Hooks - useState e useContext
-- [ ] 17.3 - React Hooks - useEffect e Hooks customizados
-- [ ] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
+- [x] 17.2 - React Hooks - useState e useContext
+- [x] 17.3 - React Hooks - useEffect e Hooks customizados
+- [x] 17.4 - Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 18: Projeto App de Receitas
 - [ ] 18.1 - Projeto - App de Receitas
