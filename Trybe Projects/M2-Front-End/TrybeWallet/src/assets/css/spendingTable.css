@@ -1,0 +1,36 @@
+.table-styles {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+.table-styles table {
+  /* background-color: blue; */
+  width: 90%;
+  text-align: center;
+}
+
+.table-styles table thead {
+  padding: 5px 10px;
+  background-color: #456c81;
+  color: #1f1f1f;
+}
+
+.table-styles table tbody {
+  padding: 5px 10px;
+  color: #faf4e4;
+}
+
+.table-styles button {
+  border-radius: 3px;
+  margin: 5px 15px;
+  border: 1px solid #fcbc34;
+  background-color: transparent;
+  color: #faf4e4;
+  transition: 0.2s;
+}
+
+.table-styles button:hover {
+  border: 1px solid #f1840e;
+  background-color: #f1840e;
+}
