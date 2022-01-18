@@ -1,0 +1,56 @@
+.form-section {
+  background-color: #456c81;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.form-section form {
+  display: flex;
+  width: 80%;
+  font-size: 15px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form-section form label {
+  display: flex;
+  align-items: center;
+}
+
+.form-section form button {
+  border: none;
+  width: 130px;
+  height: 22px;
+  border-radius: 3px;
+  transition: 0.2s;
+  color: rgb(29, 29, 29);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #fcbc34;
+}
+
+.form-section form button:hover {
+  background-color: #f1840e;
+  color: rgb(255, 247, 230);
+}
+
+.form-section form label input, select {
+  margin: 0px 5px;
+  color: rgb(49, 49, 49);
+}
+
+.form-section form select:hover, button {
+  cursor: pointer;
+}
+
+.form-section form label input, select {
+  border: none;
+  border-radius: 2px;
+  height: 20px;
+  background-color: #DDD;
+  color: whie;
+}

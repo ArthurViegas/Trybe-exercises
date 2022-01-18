@@ -3,7 +3,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ##### Bloco 1: Unix, Bash e Shell Script 
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
@@ -77,7 +77,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 10.3 - Jest - Simulando comportamentos
 - [x] 10.4 - Projeto - Jest Assíncrono e Mocking
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 10: Introdução à React
 - [x] 10.5 - Introdução - Front-end
@@ -129,7 +129,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19: Introdução à SQL
-- [ ] 19.1 - Introdução - Back-end
+- [x] 19.1 - Introdução - Back-end
 - [ ] 19.1 - Introdução - Bancos de dados relacionais
 - [ ] 19.1 - Banco de dados SQL
 - [ ] 19.2 - Encontrando dados em um banco de dados
