@@ -1,6 +1,9 @@
 const calcule = require('./exercicio1')
-const randon = Math.floor(Math.random() * 100 + 1)
+const randon = () => Math.floor(Math.random() * 100 + 1)
 
-calcule(randon, randon, randon)
+// função randomNumbers tirada do gabarito do exercicio
+const randomNumbers = Array.from({ length: 3 }).map(randon)
+
+calcule(...randomNumbers)
   .then(resolve => console.log(resolve))
   .catch(error => console.log(error))
