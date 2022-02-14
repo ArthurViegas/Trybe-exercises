@@ -130,82 +130,87 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 
 ##### Bloco 19: Introdução à SQL
 - [x] 19.1 - Introdução - Back-end
-- [ ] 19.1 - Introdução - Bancos de dados relacionais
-- [ ] 19.1 - Banco de dados SQL
-- [ ] 19.2 - Encontrando dados em um banco de dados
-- [ ] 19.3 - Filtrando dados de forma específica
-- [ ] 19.4 - Manipulando tabelas
-- [ ] 19.5 - Projeto - All For One
+- [x] 19.1 - Introdução - Bancos de dados relacionais
+- [x] 19.1 - Banco de dados SQL
+- [x] 19.2 - Encontrando dados em um banco de dados
+- [x] 19.3 - Filtrando dados de forma específica
+- [x] 19.4 - Manipulando tabelas
+- [x] 19.5 - Projeto - All For One
 
 ##### Bloco 20: Funções SQL, Joins e Subqueriesbloco-21-funcoes-sql-joins-e-subqueries
-- [ ] 20.1 - Funções mais usadas no SQL
-- [ ] 20.2 - Descomplicando JOINs e UNIONs
-- [ ] 20.3 - Stored Routines & Subqueries
-- [ ] 20.4 - Projeto - Vocabulary Booster
+- [x] 20.1 - Funções mais usadas no SQL
+- [x] 20.2 - Descomplicando JOINs e UNIONs
+- [x] 20.3 - Stored Routines & Subqueries
+- [x] 20.4 - Projeto - Vocabulary Booster
 
 ##### Bloco 21: Normalização e Modelagem de Banco de Dados
-- [ ] 21.1 - Transformando ideias em um modelo de banco de dados
-- [ ] 21.2 - Normalização, Formas Normais e Dumps
-- [ ] 21.3 - Transformando ideias em um modelo de banco de dados - Parte 2
-- [ ] 21.4 - Projeto - One For All
+- [x] 21.1 - Transformando ideias em um modelo de banco de dados
+- [x] 21.2 - Normalização, Formas Normais e Dumps
+- [x] 21.3 - Transformando ideias em um modelo de banco de dados - Parte 2
+- [x] 21.4 - Projeto - One For All
 
-##### Bloco 22: Introdução ao MongoDB
-- [ ] 22.1 - Introdução - NoSQL
-- [ ] 22.1 - MongoDB - Introdução
-- [ ] 22.2 - Filter Operators
-- [ ] 22.3 - Projeto - Data Flights
+##### Bloco 22: Introdução ao desenvolvimento Web com NodeJS
+- [x] 22.1 - Intro - NodeJS
+- [x] 22.1 - NodeJS - Um motor JavaScript
+- [x] 22.2 - NodeJS - Fluxo Assíncrono
+- [x] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
+- [x] 22.4 - Express: HTTP com Node.js
+- [x] 22.5 - Express: Middlewares
+- [ ] 22.6 - Projeto - Talker manager
 
-##### Bloco 23: MongoDB: Updates Simples e Complexos
-- [ ] 23.1 - Updates Simples
-- [ ] 23.2 - Updates Complexos - Arrays - Parte 1
-- [ ] 23.3 - Updates Complexos - Arrays - Parte 2
-- [ ] 23.4 - Projeto - Commerce
+##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+- [ ] 23.1 - Introdução - Arquitetura de Software
+- [ ] 23.1 - Arquitetura de Software - Camada de Model
+- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [ ] 23.3 - Arquitetura Web - Rest e Restful
+- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [ ] 23.5 - Projeto - Store Manager
 
-##### Bloco 24: MongoDB: Aggregation Framework
-- [ ] 24.1 - Aggregation Framework - Parte 1
-- [ ] 24.2 - Aggregation Framework - Parte 2
-- [ ] 24.3 - Projeto - Aggregations
+##### Bloco 24: Node.js: ORM e Autenticação
+- [ ] 24.1 - Introdução - Node.js: ORM e Autenticação
+- [ ] 24.1 - ORM - Interface da aplicação com o banco de dados
+- [ ] 24.2 - ORM - Associations
+- [ ] 24.3 - JWT - (JSON Web Token)
+- [ ] 24.4 - Testando APIs com Testes de Integração
+- [ ] 24.5 - Projeto - API de Blogs
 
-##### Bloco 25: Introdução ao desenvolvimento Web com NodeJS
-- [ ] 25.1 - Intro - NodeJS
-- [ ] 25.1 - NodeJS - Introdução
-- [ ] 25.2 - NodeJS - Fluxo Assíncrono
-- [ ] 25.3 - Testes com NodeJS
-- [ ] 25.4 - Express: HTTP com Node.js
-- [ ] 25.5 - Praticando Express
-- [ ] 25.6 - Projeto - Talker manager
+##### Bloco 25: Deployment
+- [ ] 25.1 - Introdução - Deploy
+- [ ] 25.1 - Infraestrutura - Deploy com Heroku
+- [ ] 25.2 - Deploy Docker & Heroku
+- [ ] 25.3 - Projeto - Stranger Things
 
-##### Bloco 26: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 26.1 - Introdução - Arquitetura de Software
-- [ ] 26.1 - Arquitetura de Software - Camada de Model
-- [ ] 26.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 26.3 - Arquitetura Web - Rest e Restful
-- [ ] 26.4 - Arquitetura de Software - Testando as Camadas
-- [ ] 26.5 - Projeto - Store Manager
+##### Bloco 26: TypeScript
+- [ ] 26.1 - Introdução - TypeScript
+- [ ] 26.1 - Introdução ao TypeScript
+- [ ] 26.2 - Tipagem Estática e Generics
+- [ ] 26.3 - Express com TypeScript
+- [ ] 26.4 - Projeto - Trybe Smith
 
-##### Bloco 27: Autenticação e Upload de Arquivos
-- [ ] 27.1 - NodeJS - JWT - (JSON Web Token)
-- [ ] 27.2 - NodeJS - Upload de arquivos com Multer
-- [ ] 27.3 - NodeJS - Testando APIs com Testes de Integração
-- [ ] 27.4 - Projeto - Cookmaster
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
+- [ ] 27.1 - Introdução à Orientação a Objetos
+- [ ] 27.2 - Herança e Interfaces
+- [ ] 27.3 - Polimorfismo
+- [ ] 27.4 - SOLID - Introdução e Princípios S, O e D
+- [ ] 27.5 - SOLID - Princípios L e I
+- [ ] 27.6 - Projeto - Trybers and Dragons
 
-##### Bloco 28: Deployment
-- [ ] 28.1 - Introdução - Deploy
-- [ ] 28.1 - Infraestrutura - Deploy com Heroku
-- [ ] 28.2 - Deploy - Gerenciadores de Processos
-- [ ] 28.3 - Projeto - Stranger Things
 
-##### Bloco 29: Arquitetura: SOLID e ORM
-- [ ] 29.1 - Arquitetura - Princípios SOLID
-- [ ] 29.2 - ORM - Interface da aplicação com o banco de dados
-- [ ] 29.3 - ORM - Associations
-- [ ] 29.4 - Boas práticas na escrita de testes
-- [ ] 29.5 - Projeto - API de Blogs
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
+- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
-##### Bloco 30: Sockets
-- [ ] 30.1 - Sockets - TCP/UDP & NET
-- [ ] 30.2 - Sockets - Socket.io
-- [ ] 30.3 - Projeto - Webchat
+##### Bloco 29: Introdução ao MongoDB
+- [ ] 29.1 - Introdução - NoSQL
+- [ ] 29.1 - MongoDB - Introdução
+- [ ] 29.2 - Filter Operators
+- [ ] 29.3 - Operadores de consulta 
+- [ ] 29.4 - Updates Simples 
+- [ ] 29.5 - Updates Complexos - Arrays
+- [ ] 29.6 - Projeto - Commerce 
+
+##### Bloco 30: MasterClass - VPS, CI/CD
+- [ ] 30.1 - Dia 1
+- [ ] 30.2 - Dia 2
 
 ##### Bloco 31: Projeto Trybeer II
 - [ ] 31.1 - Projeto - Trybeer v2
