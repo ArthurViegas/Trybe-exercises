@@ -39,9 +39,6 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 5.5 - Fundamentos - JavaScript - Projetos
 - [x] 5.5 - Projeto - Arte com Pixels
 - [x] 5.6 - Projeto - Lista de tarefas
-- [ ] 5.7 - (Bônus) Projeto - Meme Generator
-- [ ] 5.7 - (Bônus) Projeto - Adivinhe a Cor
-- [ ] 5.7 - (Bônus) Projeto - Carta Misteriosa
 
 ##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
 - [x] 6.1 - HTML & CSS - Forms
@@ -156,14 +153,14 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 22.3 - Mocha, Chai e Sinon - Testes de Back-end com Node.js
 - [x] 22.4 - Express: HTTP com Node.js
 - [x] 22.5 - Express: Middlewares
-- [ ] 22.6 - Projeto - Talker manager
+- [x] 22.6 - Projeto - Talker manager
 
 ##### Bloco 23: NodeJS: Camada de Serviço e Arquitetura Rest e Restful
-- [ ] 23.1 - Introdução - Arquitetura de Software
-- [ ] 23.1 - Arquitetura de Software - Camada de Model
-- [ ] 23.2 - Arquitetura de Software - Camada de Controller e Service
-- [ ] 23.3 - Arquitetura Web - Rest e Restful
-- [ ] 23.4 - Arquitetura de Software - Testando as Camadas
+- [x] 23.1 - Introdução - Arquitetura de Software
+- [x] 23.1 - Arquitetura de Software - Camada de Model
+- [x] 23.2 - Arquitetura de Software - Camada de Controller e Service
+- [x] 23.3 - Arquitetura Web - Rest e Restful
+- [x] 23.4 - Arquitetura de Software - Testando as Camadas
 - [ ] 23.5 - Projeto - Store Manager
 
 ##### Bloco 24: Node.js: ORM e Autenticação
