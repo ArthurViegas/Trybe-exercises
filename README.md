@@ -101,7 +101,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 14.1 - RTL - Primeiros passos
 - [x] 14.2 - RTL - Mocks e Inputs
 - [x] 14.3 - RTL - Testando React Router
-- [x 14.4 - Projeto - Testes em React
+- [x] 14.4 - Projeto - Testes em React
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 - [x] 15.1 - Introdução ao Redux - O estado global da aplicação
