@@ -123,7 +123,7 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 ##### Bloco 18: Projeto App de Receitas
 - [x] 18.1 - Projeto - App de Receitas
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end :heavy_check_mark:
 
 ##### Bloco 19: Introdução à SQL
 - [x] 19.1 - Introdução - Back-end
@@ -178,76 +178,76 @@ Contém todas as atividades desenvolvidas por mim __[Arthur Viegas](https://www.
 - [x] 25.3 - Projeto - Stranger Things
 
 ##### Bloco 26: TypeScript
-- [ ] 26.1 - Introdução - TypeScript
-- [ ] 26.1 - Introdução ao TypeScript
-- [ ] 26.2 - Tipagem Estática e Generics
-- [ ] 26.3 - Express com TypeScript
-- [ ] 26.4 - Projeto - Trybe Smith
+- [x] 26.1 - Introdução - TypeScript
+- [x] 26.1 - Introdução ao TypeScript
+- [x] 26.2 - Tipagem Estática e Generics
+- [x] 26.3 - Express com TypeScript
+- [x] 26.4 - Projeto - Trybe Smith
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
-- [ ] 27.1 - Introdução à Orientação a Objetos
-- [ ] 27.2 - Herança e Interfaces
-- [ ] 27.3 - Polimorfismo
-- [ ] 27.4 - SOLID - Introdução e Princípios S, O e D
-- [ ] 27.5 - SOLID - Princípios L e I
-- [ ] 27.6 - Projeto - Trybers and Dragons
+- [x] 27.1 - Introdução à Orientação a Objetos
+- [x] 27.2 - Herança e Interfaces
+- [x] 27.3 - Polimorfismo
+- [x] 27.4 - SOLID - Introdução e Princípios S, O e D
+- [x] 27.5 - SOLID - Princípios L e I
+- [x] 27.6 - Projeto - Trybers and Dragons
 
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
-- [ ] 28.1 - Projeto - TFC - Trybe Futebol Clube
+- [x] 28.1 - Projeto - TFC - Trybe Futebol Clube
 
 ##### Bloco 29: Introdução ao MongoDB
-- [ ] 29.1 - Introdução - NoSQL
-- [ ] 29.1 - MongoDB - Introdução
-- [ ] 29.2 - Filter Operators
-- [ ] 29.3 - Operadores de consulta 
-- [ ] 29.4 - Updates Simples 
-- [ ] 29.5 - Updates Complexos - Arrays
-- [ ] 29.6 - Projeto - Commerce 
+- [x] 29.1 - Introdução - NoSQL
+- [x] 29.1 - MongoDB - Introdução
+- [x] 29.2 - Filter Operators
+- [x] 29.3 - Operadores de consulta 
+- [x] 29.4 - Updates Simples 
+- [x] 29.5 - Updates Complexos - Arrays
+- [x] 29.6 - Projeto - Commerce 
 
 ##### Bloco 30: MasterClass - VPS, CI/CD
-- [ ] 30.1 - Dia 1
-- [ ] 30.2 - Dia 2
+- [x] 30.1 - Dia 1
+- [x] 30.2 - Dia 2
 
 ##### Bloco 31: Projeto Trybeer II
-- [ ] 31.1 - Projeto - Trybeer v2
+- [x] 31.1 - Projeto - Trybeer v2
 
-## Ciência da Computação :hourglass_flowing_sand:
+## Ciência da Computação :heavy_check_mark:
 
 ##### Bloco 32: Arquitetura de Computadores e Redes
-- [ ] 32.1 - Introdução - Ciência da Computação
-- [ ] 32.2 - Arquitetura de Computadores
-- [ ] 32.3 - Arquitetura de redes
-- [ ] 32.4 - Redes de computadores, ferramentas e segurança
-- [ ] 32.5 - Projeto - Explorando os protocolos
+- [x] 32.1 - Introdução - Ciência da Computação
+- [x] 32.2 - Arquitetura de Computadores
+- [x] 32.3 - Arquitetura de redes
+- [x] 32.4 - Redes de computadores, ferramentas e segurança
+- [x] 32.5 - Projeto - Explorando os protocolos
 
 ##### Bloco 33: Introdução à Python e Raspagem de Dados da Web
-- [ ] 33.1 - Aprendendo Python
-- [ ] 33.2 - Entrada e Saída de dados
-- [ ] 33.3 - Raspagem de Dados
-- [ ] 33.4 - Testes
-- [ ] 33.5 - Projeto - Tech news
+- [x] 33.1 - Aprendendo Python
+- [x] 33.2 - Entrada e Saída de dados
+- [x] 33.3 - Raspagem de Dados
+- [x] 33.4 - Testes
+- [x] 33.5 - Projeto - Tech news
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
-- [ ] 34.1 - Introdução à programação orientada a objetos
-- [ ] 34.2 - Herança, Composição e Interfaces
-- [ ] 34.3 - Padrões de projeto
-- [ ] 34.4 - Projeto - Relatórios de Estoque
+- [x] 34.1 - Introdução à programação orientada a objetos
+- [x] 34.2 - Herança, Composição e Interfaces
+- [x] 34.3 - Padrões de projeto
+- [x] 34.4 - Projeto - Relatórios de Estoque
 
 ##### Bloco 35: Algoritmos e Estrutura de Dados
-- [ ] 35.1 - Complexidade de Algoritmos
-- [ ] 35.2 - Recursividade e Estratégias para solução de problemas
-- [ ] 35.3 - Algoritmos de ordenação e busca
-- [ ] 35.4 - Projeto - Algoritmos
+- [x] 35.1 - Complexidade de Algoritmos
+- [x] 35.2 - Recursividade e Estratégias para solução de problemas
+- [x] 35.3 - Algoritmos de ordenação e busca
+- [x] 35.4 - Projeto - Algoritmos
 
 ##### Bloco 36: Estrutura de Dados: Hash e Set
-- [ ] 36.1 - Arrays
-- [ ] 36.2 - Hashmap e Dict
-- [ ] 36.3 - Set
-- [ ] 36.4 - Projeto - Restaurant Orders
+- [x] 36.1 - Arrays
+- [x] 36.2 - Hashmap e Dict
+- [x] 36.3 - Set
+- [x] 36.4 - Projeto - Restaurant Orders
 
 ##### Bloco 37: Estrutura de Dados: Pilhas, Filas e Listas
-- [ ] 37.1 - Nó e Listas Encadeadas
-- [ ] 37.2 - Deque
-- [ ] 37.3 - Pilhas
-- [ ] 37.4 - Projeto - TING - Trybe Is Not Google
+- [x] 37.1 - Nó e Listas Encadeadas
+- [x] 37.2 - Deque
+- [x] 37.3 - Pilhas
+- [x] 37.4 - Projeto - TING - Trybe Is Not Google
